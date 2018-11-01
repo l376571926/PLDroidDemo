@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AudioVideoRecordingSample/AudioVideoRecordingSample.iml" filepath="$PROJECT_DIR$/AudioVideoRecordingSample/AudioVideoRecordingSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FFmpegAndroid/FFmpegAndroid.iml" filepath="$PROJECT_DIR$/FFmpegAndroid/FFmpegAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediaRecorderSample/MediaRecorderSample.iml" filepath="$PROJECT_DIR$/MediaRecorderSample/MediaRecorderSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyPLDroidDemo.iml" filepath="$PROJECT_DIR$/.idea/MyPLDroidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidH264StreamDemo/androidH264StreamDemo.iml" filepath="$PROJECT_DIR$/androidH264StreamDemo/androidH264StreamDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audiovideorecordingdemo/audiovideorecordingdemo.iml" filepath="$PROJECT_DIR$/audiovideorecordingdemo/audiovideorecordingdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audiovideorecordingdemo2/audiovideorecordingdemo2.iml" filepath="$PROJECT_DIR$/audiovideorecordingdemo2/audiovideorecordingdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blur-behind/blur-behind.iml" filepath="$PROJECT_DIR$/blur-behind/blur-behind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blurEffect/blurEffect.iml" filepath="$PROJECT_DIR$/blurEffect/blurEffect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraPreview/cameraPreview.iml" filepath="$PROJECT_DIR$/cameraPreview/cameraPreview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/driveblurdemo/driveblurdemo.iml" filepath="$PROJECT_DIR$/driveblurdemo/driveblurdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drivevideo/drivevideo.iml" filepath="$PROJECT_DIR$/drivevideo/drivevideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gpuimage-library/gpuimage-library.iml" filepath="$PROJECT_DIR$/gpuimage-library/gpuimage-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h264MediaCodecStreamer/h264MediaCodecStreamer.iml" filepath="$PROJECT_DIR$/h264MediaCodecStreamer/h264MediaCodecStreamer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaCodecDemo/mediaCodecDemo.iml" filepath="$PROJECT_DIR$/mediaCodecDemo/mediaCodecDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaCodecEncode/mediaCodecEncode.iml" filepath="$PROJECT_DIR$/mediaCodecEncode/mediaCodecEncode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaCodecPublisher/mediaCodecPublisher.iml" filepath="$PROJECT_DIR$/mediaCodecPublisher/mediaCodecPublisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spydroid/spydroid.iml" filepath="$PROJECT_DIR$/spydroid/spydroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testIjkplayer/testIjkplayer.iml" filepath="$PROJECT_DIR$/testIjkplayer/testIjkplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/x264encoder/x264encoder.iml" filepath="$PROJECT_DIR$/x264encoder/x264encoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuvtorbga/yuvtorbga.iml" filepath="$PROJECT_DIR$/yuvtorbga/yuvtorbga.iml" />
+    </modules>
+  </component>
+</project>

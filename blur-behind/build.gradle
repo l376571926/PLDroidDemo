@@ -1,28 +1,14 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.0'
-        classpath 'com.github.dcendents:android-maven-plugin:1.2'
-    }
-}
 apply plugin: 'com.android.library'
 
 def mVersionCode = 5
 def mVersionName = "1.1"
 
-repositories {
-    mavenCentral()
-}
-
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 23
+        targetSdkVersion 28
         versionCode mVersionCode
         versionName mVersionName
     }
@@ -35,10 +21,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:23.+'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-//apply plugin: 'android-maven'
-//version = mVersionName
-//group = "com.faradaj"

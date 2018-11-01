@@ -62,7 +62,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback, Pr
     DatagramSocket udpSocket;
     InetAddress address;
     int port;
-    ArrayList<byte[]> encDataList = new ArrayList<byte[]>();
+    final ArrayList<byte[]> encDataList = new ArrayList<byte[]>();
     ArrayList<Integer> encDataLengthList = new ArrayList<Integer>();
     Runnable senderRun = new Runnable() {
         @Override
@@ -201,12 +201,12 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback, Pr
 
 //                    isSend = true;
 //                    if (isSend) {
-                        if (saveFileThread == null) {
-                            saveFileThread = new SaveFileThread();
-                            saveFileThread.start();
-                        }
-                        saveFileThread.saveData(encData);
+                    if (saveFileThread == null) {
+                        saveFileThread = new SaveFileThread();
+                        saveFileThread.start();
                     }
+                    saveFileThread.saveData(encData);
+                }
 //                }
             }
         }
